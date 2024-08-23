@@ -1,0 +1,24 @@
+ /* /* footer {
+    padding: 3.2rem;
+    text-align: center;
+    background-color: var(--btn-color);
+    margin-top: auto;
+  } */
+   footer {
+    background-color: #0d59f0;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+  .f-info-link a{
+      color: #fff;
+  }
+  .f-info-link a:hover{
+    color: #fff;
+  }
+
+
+
