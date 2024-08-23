@@ -27,6 +27,9 @@ const corsOptions = {
   
   app.use(cors(corsOptions));
   app.use(express.json());
+  app.get("/",(req,res)=>{
+    res.json({success : "Hello users.."})
+  })
 
 app.use("/api/auth", authRoute);
 app.use("/api/form", contactRoute);
